@@ -1,0 +1,20 @@
+{
+  "name": "fetch-challenge",
+  "version": "1.0.0",
+  "description": "Fetch Rewards Challenge Submission",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "receipt",
+    "processor"
+  ],
+  "author": "Andrew Brigante",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
