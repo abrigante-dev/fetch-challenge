@@ -23,6 +23,7 @@ git clone https://github.com/abrigante-dev/fetch-challenge.git
 2. Build the image:
 
 ```bash
+cd fetch-challenge
 docker build -t receipt-processor .
 ```
 
