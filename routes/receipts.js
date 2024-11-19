@@ -1,13 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
-const receipts = {}; // In-memory storage for receipts
+const receipts = {};
 
-/**
- * Calculate points for a receipt based on the defined rules.
- * @param {object} receipt The receipt object.
- * @returns {number} The total points awarded.
- */
 const calculatePoints = (receipt) => {
   let points = 0;
 
