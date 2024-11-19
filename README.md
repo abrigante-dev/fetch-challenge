@@ -33,3 +33,18 @@ docker build -t receipt-processor .
 docker run -p 3000:3000 receipt-processor
 
 ```
+
+## Testing Setup
+
+```bash
+git clone https://github.com/abrigante-dev/fetch-challenge.git
+```
+
+```bash
+cd fetch-challenge
+npm install
+```
+
+```bash
+npx jest
+```
