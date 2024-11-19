@@ -45,15 +45,15 @@ cd fetch-challenge
 npm install
 ```
 
-````bash
-
-
+```bash
+npm run start
+```
 
 ## Testing Setup
 
 ```bash
 git clone https://github.com/abrigante-dev/fetch-challenge.git
-````
+```
 
 ```bash
 cd fetch-challenge
